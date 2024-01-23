@@ -22,6 +22,7 @@
                 extend: {
                     colors: {
                         'color-primary': '#FF4240',
+                        'color-secondary': '#13131899',
                     }
                 }
             }
@@ -184,7 +185,7 @@
                 <div class="card  bg-base-100 shadow-xl image-full flex-1">
                     <figure><img class="w-full" src="Images/progrem-1.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                        <h2 class="card-title">Junior Program</h2>
+                        <h2 class="card-title lg:mt-20">Junior Program</h2>
                         <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
                             enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
                             congue sed et in.</p>
@@ -197,7 +198,7 @@
                 <div class="card w-full  bg-base-100 shadow-xl image-full flex-1">
                     <figure><img class="w-full" src="Images/progrem-2.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                        <h2 class="card-title">Junior Program</h2>
+                        <h2 class="card-title lg:mt-20  ">Junior Program</h2>
                         <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
                             enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
                             congue sed et in.</p>
@@ -210,12 +211,12 @@
 
             </div>
             <!-- card 3 -->
-            <div class="card w-full bg-base-100 shadow-xl image-full flex-1">
-                <figure><img class="w-full" src="Images/progrem-2.png" alt="Shoes" /></figure>
+            <div class="card w-full bg-base-100 shadow-xl image-full flex-1 mt-5">
+                <figure><img class="w-full" src="Images/program-3.png" alt="Shoes" /></figure>
                 <div class="card-body">
-                    <h2 class="card-title">Junior Program</h2>
-                    <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
-                        enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue
+                    <h2 class="card-title lg:pt-52">Junior Program</h2>
+                    <p >Dolor sit amet consectetur. Ut urna diam quis sagittis.  Elit elit <br>
+                        enim sagittis turpis in magna. Id et sed euismod natoque  amet nunc <br> morbi nulla. Tortor  congue
                         sed et in.</p>
                     <div class="card-actions">
                         <button class="btn bg-color-primary">Register Now!</button>
@@ -223,12 +224,125 @@
                 </div>
             </div>
         </section>
+        <!-- Products section here -->
+        <section>
+            <!-- Products title or descrption -->
+            <div class="text-center mt-12 lg:mt-24 space-y-3">
+                <h3 class="text-4xl font-extrabold">Our New Products</h3>
+                <p class="text-color-secondary">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br>
+                     dolor. Purus urna in sit nullam proin. </p>
+            </div>
+          <!-- Products item -->
+          <div class="grid gap-4 grid-cols-1 lg:grid-cols-2 mt-10"> 
+            <!-- item 1  -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-5  border-2 rounded-lg shadow-xl items-center  ">
+              <div>
+                <img class="m-5" src="Images/Products-1.png" alt="">
+              </div>
+                <div class="space-y-2">
+                    <div class="rating gap-2 flex items-center ">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <p class="text-color-secondary">5.0</p>
+                    <i class="fa-regular fa-eye text-color-secondary"></i> 
+                    <i class="fa-regular fa-heart text-color-secondary"></i>
+                    <p class="text-color-secondary">200</p>
+
+                    </div>
+                <h3 class="text-2xl font-extrabold">World Cup Flags Football</h3>
+                <p class="text-xs text-color-secondary">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+                <div class="flex gap-1">
+                <h3 class="text-color-primary text-xl font-extrabold">Price - $22.00</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-color-secondary">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                  </svg>
+                  
+                <p class="text-color-secondary">Delivery Fee : Free</p>
+                </div>
+                </div>  
+            </div>
+            <!-- item 2  -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-5  border-2 rounded-lg shadow-xl items-center  ">
+              <div>
+                <img class="m-5" src="Images/Products-2.png" alt="">
+              </div>
+                <div class="space-y-2">
+                    <div class="rating gap-2 flex items-center ">
+                      <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <p class="text-color-secondary">5.0</p>
+                    <i class="fa-regular fa-eye text-color-secondary"></i> 
+                    <i class="fa-regular fa-heart text-color-secondary"></i>
+                    <p class="text-color-secondary">200</p>
+
+                    </div>
+                <h3 class="text-2xl font-extrabold">World Cup Flags Football</h3>
+                <p class="text-xs text-color-secondary">Dolor sit amet consectetur. Ut urna diam <br> quis sagittis. </p>
+                <div class="flex gap-1">
+                <h3 class="text-color-primary text-xl font-extrabold">Price - $22.00</h3>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-color-secondary">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                  </svg>
+                  
+                <p class="text-color-secondary">Delivery Fee : Free</p>
+                </div>
+                </div>
+            </div>
+           
+          
+          </div>
+            
+
+        </section>
+        <!-- FAQ section-->
+        <section class="mt-20">
+            <!-- title or descrption -->
+            <div class="text-center">
+                <h2 class="text-4xl font-extrabold">Clients Question</h2>
+                <p class="text-color-secondary">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat  <br> dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-2">
+                <div>
+                    <img src="Images/Faq-img.png" alt="">
+                </div>
+                <!-- FAQ -->
+                <div>
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" checked="checked" /> 
+                        <div class="collapse-title text-xl font-medium">
+                          Click to open this one and close others
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>hello</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                          Click to open this one and close others
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>hello</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                          Click to open this one and close others
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>hello</p>
+                        </div>
+                      </div>
+                </div>
+                <!-- FAQ -->
+                
+            </div>
+        </section>
         <!-- From section here -->
         <section class="lg:mt-20 mt-8">
             <!-- section title and descrption -->
             <div class="text-center">
                 <h3 class="text-4xl font-extrabold">Get In Touch</h3>
-                <p class="text-xl space-x-20">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                <p class="text-xl space-x-20 text-color-secondary">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
                     <br>placerat
                     dolor. Purus urna in sit nullam proin. </p>
             </div>
@@ -237,24 +351,25 @@
                 <!-- info item 1-->
                 <div class="space-y-5 border border-[#1313181A] border-opacity-10% p-3 lg:p-7 rounded-xl ">
 
-                    <div class="bg-[#BCED6D1A] opacity-10% py-10 px-8 rounded-2xl w-[350px] shadow-lg space-y-2">
+                    <div class="bg-[#BCED6D1A] opacity-10% py-10 px-6 rounded-2xl w-[350px] shadow-lg space-y-2">
                         <img src="Images/phone-ring.png" alt="">
-                        <p>Phone Number :</p>
+                        <p class="text-color-secondary">Phone Number :</p>
                         <h4 class="text-xl font-extrabold">(+62) 123-321-543</h4>
                     </div>
                     <!-- info item 2-->
 
-                    <div class="bg-secondary-content opacity-10% py-10 px-8 rounded-2xl w-[350px] shadow-lg space-y-2">
+                    <div class="bg-secondary-content opacity-10% py-10 px-6 rounded-2xl w-[350px] shadow-lg space-y-2">
                         <img src="Images/message.png" alt="">
-                        <p>Phone Number :</p>
-                        <h4 class="text-xl font-extrabold">(+62) 123-321-543</h4>
+                        <p class="text-color-secondary">Email :</p>
+                        <h4 class="text-xl font-extrabold"> 
+                            hockeys@support.com</h4>
                     </div>
                     <!-- info item 3-->
 
-                    <div class="bg-[#629CF31A] opacity-10% py-10 px-8 rounded-2xl shadow-xl w-[350px] space-y-2">
+                    <div class="bg-[#629CF31A] opacity-10% py-10 px-6 rounded-2xl shadow-xl w-[350px] space-y-2">
                         <img src="Images/map.png" alt="">
-                        <p>Phone Number :</p>
-                        <h4 class="text-xl font-extrabold">(+62) 123-321-543</h4>
+                        <p class="text-color-secondary">Location :</p>
+                        <h4 class="text-xl font-extrabold">152/1 Mohakhali Wireless Gate</h4>
                     </div>
                 </div>
                 <div>
@@ -298,7 +413,7 @@
         <!-- social media section -->
         <section class="text-center space-y-4 mt-10 bg-neutral-content rounded-lg py-5 lg:mx-2">
             <h2 class="text-2xl font-extrabold text-[#131318]">Social Meida</h2>
-            <div class="space-x-2">
+            <div class="space-x-6 text-3xl">
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-facebook"></i>
                 <i class="fa-brands fa-instagram"></i>
