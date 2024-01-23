@@ -154,7 +154,7 @@
                 </div>
                 <!-- progress 3 -->
                 <div class="space-y-4 text-center">
-                    <div class="radial-progress text-[#FF4240] " style="--value:85;" role="progressbar">90%</div>
+                    <div class="radial-progress text-warning " style="--value:85;" role="progressbar">90%</div>
                     <h4 class="text-xl font-semibold">Senior Player</h4>
                     <p class="">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
                 </div>
@@ -223,17 +223,97 @@
                 </div>
             </div>
         </section>
+        <!-- From section here -->
+        <section class="lg:mt-20 mt-8">
+            <!-- section title and descrption -->
+            <div class="text-center">
+                <h3 class="text-4xl font-extrabold">Get In Touch</h3>
+                <p class="text-xl space-x-20">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
+                    <br>placerat
+                    dolor. Purus urna in sit nullam proin. </p>
+            </div>
+            <!-- item section -->
+            <div class="mt-20  flex gap-6 flex-col lg:flex-row ">
+                <!-- info item 1-->
+                <div class="space-y-5 border border-[#1313181A] border-opacity-10% p-3 lg:p-7 rounded-xl ">
+
+                    <div class="bg-[#BCED6D1A] opacity-10% py-10 px-8 rounded-2xl w-[350px] shadow-lg space-y-2">
+                        <img src="Images/phone-ring.png" alt="">
+                        <p>Phone Number :</p>
+                        <h4 class="text-xl font-extrabold">(+62) 123-321-543</h4>
+                    </div>
+                    <!-- info item 2-->
+
+                    <div class="bg-secondary-content opacity-10% py-10 px-8 rounded-2xl w-[350px] shadow-lg space-y-2">
+                        <img src="Images/message.png" alt="">
+                        <p>Phone Number :</p>
+                        <h4 class="text-xl font-extrabold">(+62) 123-321-543</h4>
+                    </div>
+                    <!-- info item 3-->
+
+                    <div class="bg-[#629CF31A] opacity-10% py-10 px-8 rounded-2xl shadow-xl w-[350px] space-y-2">
+                        <img src="Images/map.png" alt="">
+                        <p>Phone Number :</p>
+                        <h4 class="text-xl font-extrabold">(+62) 123-321-543</h4>
+                    </div>
+                </div>
+                <div>
+
+                    <!-- Form item -->
+                    <form class="grid gap-3 grid-cols-1 lg:grid-cols-2  lg:pl-0 pl-2 mx-2">
+                        <!-- form name -->
+                      <div class="space-y-2 flex-1 ">
+                          <p class="text-xl font-extrabold">Your Name</p>
+                        <input class="bg-neutral-content  border w-[350px] lg:w-[420px] h-[64px] rounded-xl pl-[20px]" type="text" placeholder="Enter Your Name" name="" id="">
+                      </div>
+                      <!-- From Email -->
+                     <div class="space-y-2 flex-1">
+                        <p class="text-xl font-extrabold ">Your Email</p>
+                        <input class="bg-neutral-content border w-[350px] lg:w-[420px] h-[64px] rounded-xl pl-[20px]" placeholder="Enter Your Email" type="email" name="" id="">
+                     </div>
+                     <!-- Form subject -->
+                     <div class="space-y-2 flex-1 ">
+                        <p class="text-xl font-extrabold">Subject</p>
+                      <input class="bg-neutral-content  border w-[350px] lg:w-[420px] h-[64px] rounded-xl pl-[20px]" type="text" placeholder="Enter your subject" name="" id="">
+                    </div>
+                    <!-- Form number -->
+                    <div class="space-y-2 flex-1 ">
+                        <p class="text-xl font-extrabold">Phone Number</p>
+                      <input class="bg-neutral-content  border w-[350px] lg:w-[420px] h-[64px] rounded-xl pl-[20px]" type="number" placeholder="Enter your phone number" name="" id="">
+                    </div>
+                    <!-- Form Message -->
+                    <div class="space-y-2 flex-1 ">
+                        <p class="text-xl font-extrabold">Message</p>
+                      <input class="bg-neutral-content  border w-[350px] lg:w-[850px] h-[370px] rounded-xl pl-[20px]" type="text" placeholder="Write your message" name="" id="">
+                    </div>                    
+                    </form>
+                    <button class="btn bg-color-primary mt-4 text-white lg:w-[850px] w-[350px] ml-2 ">Send Message</button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- social media section -->
+        <section class="text-center space-y-4 mt-10 bg-neutral-content rounded-lg py-5 lg:mx-2">
+            <h2 class="text-2xl font-extrabold text-[#131318]">Social Meida</h2>
+            <div class="space-x-2">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </section>
 
     </main>
     <!-- footer start here -->
-    <footer class="footer p-16 bg-black text-white mt-12 ">
-        <aside>
-            <h2 class="text-3xl">Get In Touch</h2>
-
-
+    <footer class="footer p-16 bg-black text-white lg:mt-12 mt-6">
+        <aside class="">
+            <h2 class="text-3xl font-extrabold">Get In Touch</h2>
             <p>Dit amet consectetur. Condimentum <br>
-                 adipiscing aliquam turpis placerat dolor. Purus <br>
-                  urna in sit nullam proin. </p>
+                adipiscing aliquam turpis placerat dolor. Purus <br>
+                urna in sit nullam proin. </p>
             <div class="flex gap-2">
                 <img src="Images/mail.png" alt="">
                 <p>hockeys@support.com</p>
@@ -253,20 +333,25 @@
             <a class="link link-hover"> Legal Notice</a>
         </nav>
         <nav>
-            <header class="footer-title">Company</header>
-            <a class="link link-hover">About us</a>
-            <a class="link link-hover">Contact</a>
-            <a class="link link-hover">Jobs</a>
-            <a class="link link-hover">Press kit</a>
+            <header class="footer-title">Support</header>
+            <a class="link link-hover">Help Center</a>
+            <a class="link link-hover">FAQ</a>
+            <a class="link link-hover">Ticket Support</a>
+            <a class="link link-hover">Contact Us</a>
         </nav>
+
         <nav>
-            <header class="footer-title">Legal</header>
-            <a class="link link-hover">Terms of use</a>
-            <a class="link link-hover">Privacy policy</a>
-            <a class="link link-hover">Cookie policy</a>
+            <header class="footer-title">Services</header>
+            <a class="link link-hover">Academy</a>
+            <a class="link link-hover">Group Lesson</a>
+            <a class="link link-hover">Private Lesson</a>
+            <a class="link link-hover">Hockeys for kids</a>
+            <a class="link link-hover"> Hockeys for Adult</a>
         </nav>
     </footer>
 
 </body>
 
 </html>
+
+Academy
